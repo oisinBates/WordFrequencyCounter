@@ -1,5 +1,7 @@
 
-**Introduction**
+
+
+**CS5112 and CS5052 Programming Assignment**
 
 Gobbledegook Inc is a multinational company that offers users of its services a free gPost mailbox facility.
 However, the mailbox isn’t really free. In return for the ‘free’ service users must agree to allow Gobbledegook
@@ -31,7 +33,7 @@ has enough money to buy 1 bar. I printed 5 tickets but my Oompa-Loompa workers
 made more than 1000000 bars :) gPostEnd
 
 The file “gPostMessages.txt” is processed by reading the message entries and splitting them into the individual
-words. Noise words 1 (e.g. me, you, it, this, that, these, etc. - A full list of noise words is available in the file *NoiseWords.txt.*) and other text that is not alphabetic are removed.
+words. Noise words 1 (e.g. me, you, it, this, that, these, etc. - A full list of noise words is available in the file **NoiseWords.txt.**) and other text that is not alphabetic are removed.
 The remaining words are stored in a list associated with the email address. Each entry in that list will contain a
 word and the number of times that word has occurred in messages sent or received by the user. For example,
 the list for *WillyWonka@gPost.com* would be identified by the name *WillyWonka* and might have a list

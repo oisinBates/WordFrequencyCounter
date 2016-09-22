@@ -15,10 +15,10 @@ system. A sample of the messages sent to gPost accounts has been stored in a fil
 
 where
 
-*The gPostAddress identifies the mailbox that sent the message.
-*The labels gPostBegin and gPostEnd are used for the purposes of bracketing the message
+* The gPostAddress identifies the mailbox that sent the message.
+* The labels gPostBegin and gPostEnd are used for the purposes of bracketing the message
 text (i.e. formally identifying the beginning and end of the message text).
-*The text of the message. Note the text of the message may be any length and may span
+* The text of the message. Note the text of the message may be any length and may span
 several lines. We will only concern ourselves with message content that we categorise as
 “words” (i.e. is wholly alphabetic containing only letters of the alphabet in upper, lower or mixed
 case). All other content will be ignored.

@@ -1,7 +1,7 @@
 
 
 
-Introduction
+*Introduction*
 Gobbledegook Inc is a multinational company that offers users of its services a free gPost mailbox facility.
 However, the mailbox isn’t really free. In return for the ‘free’ service users must agree to allow Gobbledegook
 Inc analyse all emails sent and received from or to the gPost mailbox.
@@ -11,7 +11,7 @@ be interested in the products being marketed.
 For the purposes of this programming assignment we are going to implement a simulation of the actual
 system. A sample of the messages sent to gPost accounts has been stored in a file called
 “gPostMessages.txt”. Each message has the format
-gPostAddress gPostBegin text of message gPostEnd
+>*gPostAddress* gPostBegin text of message *gPostEnd*
 where
 *The gPostAddress identifies the mailbox that sent the message.
 *The labels gPostBegin and gPostEnd are used for the purposes of bracketing the message

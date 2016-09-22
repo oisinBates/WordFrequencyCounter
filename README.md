@@ -1,7 +1,5 @@
 
-
-
-*Introduction*
+**Introduction**
 
 Gobbledegook Inc is a multinational company that offers users of its services a free gPost mailbox facility.
 However, the mailbox isn’t really free. In return for the ‘free’ service users must agree to allow Gobbledegook
@@ -13,10 +11,10 @@ For the purposes of this programming assignment we are going to implement a simu
 system. A sample of the messages sent to gPost accounts has been stored in a file called
 “gPostMessages.txt”. Each message has the format
 
->*gPostAddress* gPostBegin text of message *gPostEnd*
-Quote break.
+>**gPostAddress** **gPostBegin** text of message **gPostEnd**
 
 where
+
 *The gPostAddress identifies the mailbox that sent the message.
 *The labels gPostBegin and gPostEnd are used for the purposes of bracketing the message
 text (i.e. formally identifying the beginning and end of the message text).

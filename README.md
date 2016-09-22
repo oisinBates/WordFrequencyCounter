@@ -1,6 +1,8 @@
 
-This project was completed for the University of Limerick module *CS5052 - Programming B*
+This project was completed for the University of Limerick module *CS5052 - Programming B*.
 In the event that it is of interest to any reader, the project's specifications are outlined below.
+
+
 
 **CS5112 and CS5052 Programming Assignment**
 

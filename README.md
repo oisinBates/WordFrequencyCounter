@@ -22,11 +22,14 @@ text (i.e. formally identifying the beginning and end of the message text).
 several lines. We will only concern ourselves with message content that we categorise as
 “words” (i.e. is wholly alphabetic containing only letters of the alphabet in upper, lower or mixed
 case). All other content will be ignored.
+
 A typical message has an entry in the file as follows
-WillyWonka@gPost.com gPostBegin To find the golden ticket you have to buy a bar
+
+>WillyWonka@gPost.com gPostBegin To find the golden ticket you have to buy a bar
 of chocolate :) Charlie’s Granny and Grandad are hoping he gets a ticket but he only
 has enough money to buy 1 bar. I printed 5 tickets but my Oompa-Loompa workers
 made more than 1000000 bars :) gPostEnd
+
 The file “gPostMessages.txt” is processed by reading the message entries and splitting them into the individual
 words. Noise words 1 (e.g. me, you, it, this, that, these, etc.) and other text that is not alphabetic are removed.
 The remaining words are stored in a list associated with the email address. Each entry in that list will contain a

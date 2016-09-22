@@ -34,13 +34,11 @@ The file “gPostMessages.txt” is processed by reading the message entries and
 words. Noise words 1 (e.g. me, you, it, this, that, these, etc.) and other text that is not alphabetic are removed.
 The remaining words are stored in a list associated with the email address. Each entry in that list will contain a
 word and the number of times that word has occurred in messages sent or received by the user. For example,
-the list for WillyWonka@gPost.com would be identified by the name WillyWonka and might have a list
+the list for *WillyWonka@gPost.com* would be identified by the name *WillyWonka* and might have a list
 of entries with a word and a corresponding count like the following
-{WillyWonka -> {chocolate,1000}, {Oompa-Loompa,500}, {golden,300}, {ticket,300}}
+>{WillyWonka -> {chocolate,1000}, {Oompa-Loompa,500}, {golden,300}, {ticket,300}}
+
 When all the messages in the file have been analysed a report is produced listing all the gPost email addresses
 and, for each one, the top 10 words used and their frequencies. The email addresses are listed in alphabetic
 order case insensitive and for each email address the words are listed in descending frequency order. If two
 words have the same frequency they should be list in alphabetic order case insensitive.
-You should use any structures provided by the Java Collections Framework that you think will assist the design
-and development of the software. You should structure the code so that it is reasonably easy to read and
-understand and include suitable comments where you believe they would assist a reader of the program.

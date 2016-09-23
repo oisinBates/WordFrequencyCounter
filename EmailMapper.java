@@ -9,12 +9,12 @@ import java.util.TreeMap;
 import java.util.HashSet;
 import java.util.ArrayList;
 
-public class emailMapper
+public class EmailMapper
 {
     private TreeMap<String,ArrayList<String>> emailWords = new TreeMap<String,ArrayList<String>>(); //holds words of messges, one key holds all messages for
     //each user
 
-    public emailMapper(){
+    public EmailMapper(){
         wordsInFile("Gobbledegook.txt");//load files of noisewords and email messages
         HashSet<String> noiseWords = loadNoiseWords("NoiseWords.txt");
         int wordFrequency;

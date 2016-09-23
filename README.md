@@ -2,7 +2,7 @@
 This project was completed for the University of Limerick module *CS5052 - Programming B*.
 The course director set a data mining use case, in which the student's program would read in text, in the format of individual emails, and calculate the 10 most common words used by each email address.
 
-In the event that it is of interest to any reader, the project's full specifications are outlined below.
+In the event that it is of interest, the project's full specifications are outlined below.
 
 
 
